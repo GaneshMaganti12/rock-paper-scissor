@@ -1,0 +1,156 @@
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to left, #1c2e4c, #6cd0ff);
+}
+.top-header {
+  height: 10vh;
+  background-color: #0f377c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+}
+.top-header h1 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.top-header span {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 0px 50px 0px 50px;
+}
+.game-container {
+  background-color: #dedede;
+  box-shadow: 1px 1px 7px #4d4d4d;
+  border-radius: 6px;
+}
+.game-card {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+.image-list {
+  margin: 8px;
+}
+.image {
+  width: 94px;
+  transform: rotate(-90deg);
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0px;
+}
+.result-card {
+  display: flex;
+  justify-content: space-between;
+}
+.image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
+.image-card h1 {
+  font-size: 13px;
+}
+.result-image {
+  width: 94px;
+}
+.rotate {
+  transform: rotateY(180deg);
+}
+.result-output-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result-button {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 7px 13px 8px 13px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #1c4894;
+  color: #dedede;
+}
+.result {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 769px) {
+  .top-header {
+    height: 13vh;
+    padding: 0px 70px;
+  }
+  .bottom-container {
+    height: 87vh;
+  }
+  .top-header h1 {
+    font-size: 26px;
+  }
+  .top-header span {
+    font-size: 17px;
+  }
+  .game-card {
+    padding: 38px 0px;
+  }
+  .image-card h1 {
+    font-size: 16px;
+  }
+  .image {
+    width: 130px;
+  }
+  .result-container {
+    padding: 14px 0px;
+  }
+  .result-card {
+    margin: 0px 20px;
+  }
+  .result-image {
+    width: 130px;
+  }
+  .result {
+    font-size: 24px;
+  }
+  .result-button {
+    font-size: 14px;
+    padding: 9px 15px 10px 15px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .top-header {
+    height: 15vh;
+  }
+  .bottom-container {
+    height: 85vh;
+  }
+  .top-header h1 {
+    font-size: 34px;
+  }
+  .top-header span {
+    font-size: 18px;
+  }
+  .image-card h1 {
+    font-size: 18px;
+  }
+  .image {
+    width: 150px;
+  }
+  .result-image {
+    width: 150px;
+  }
+}
