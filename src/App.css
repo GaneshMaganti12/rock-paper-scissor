@@ -70,6 +70,7 @@
 }
 .image-card h1 {
   font-size: 13px;
+  color: #303030;
 }
 .result-image {
   width: 94px;
@@ -94,6 +95,7 @@
 }
 .result {
   font-size: 18px;
+  color: #202020;
 }
 
 @media screen and (min-width: 769px) {
